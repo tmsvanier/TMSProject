@@ -79,16 +79,24 @@ public String gettype(int num){
         apply the skin class to the body tag so the changes take effect.
   -->
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
 
+    <link rel='stylesheet' href='plugins/fullcalendar/fullcalendar.css' /> 
+    <script src='dist/js/moment.js'></script>
+    
+    <script src='plugins/fullcalendar/fullcalendar.min.js'></script>
+    <link href='plugins/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
+ 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  
-    
-  
 </head>
  
 <body class="hold-transition skin-blue sidebar-mini">
@@ -188,10 +196,8 @@ public String gettype(int num){
 
 
 
-
-
  <div class="tab-content">
- 
+    
      <div id="home" class="tab-pane fade in active">
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -261,7 +267,6 @@ public String gettype(int num){
   </div>
   <!-- /.content-wrapper -->
     </div> 
-      
      
     <div id="list" class="tab-pane fade">
   <!-- Content Wrapper. Contains page content -->
